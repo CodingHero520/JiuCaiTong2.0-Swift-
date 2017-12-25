@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */; };
+		4F8FE3D51FF0D5CE0050B3A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D41FF0D5CE0050B3A9 /* ViewController.swift */; };
+		4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */; };
+		4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */; };
+		4F8FE3DD1FF0D5CE0050B3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3DB1FF0D5CE0050B3A9 /* LaunchScreen.storyboard */; };
+		4F8FE3E81FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3E71FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift */; };
+		4F8FE3F31FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3F21FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift */; };
+		9B0393346939FEE21F45394F /* Pods_JiuCaiTong2_0_Swift_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD681AB16F5B40628F42B1 /* Pods_JiuCaiTong2_0_Swift_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F8FE3E41FF0D5CE0050B3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8FE3C71FF0D5CD0050B3A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8FE3CE1FF0D5CE0050B3A9;
+			remoteInfo = "JiuCaiTong2.0(Swift)";
+		};
+		4F8FE3EF1FF0D5CE0050B3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8FE3C71FF0D5CD0050B3A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8FE3CE1FF0D5CE0050B3A9;
+			remoteInfo = "JiuCaiTong2.0(Swift)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CDD681AB16F5B40628F42B1 /* Pods_JiuCaiTong2_0_Swift_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiuCaiTong2_0_Swift_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JiuCaiTong2.0(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F8FE3D41FF0D5CE0050B3A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F8FE3D71FF0D5CE0050B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8FE3DC1FF0D5CE0050B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F8FE3DE1FF0D5CE0050B3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8FE3E31FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JiuCaiTong2.0(Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8FE3E71FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuCaiTong2_0_Swift_Tests.swift; sourceTree = "<group>"; };
+		4F8FE3E91FF0D5CE0050B3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8FE3EE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JiuCaiTong2.0(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8FE3F21FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuCaiTong2_0_Swift_UITests.swift; sourceTree = "<group>"; };
+		4F8FE3F41FF0D5CE0050B3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AABDE06F2FA859C2AA92E3 /* Pods-JiuCaiTong2.0(Swift).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuCaiTong2.0(Swift).debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift).debug.xcconfig"; sourceTree = "<group>"; };
+		A7DB3EB866AB640CD2C19350 /* Pods-JiuCaiTong2.0(Swift).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuCaiTong2.0(Swift).release.xcconfig"; path = "Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8FE3CC1FF0D5CE0050B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0393346939FEE21F45394F /* Pods_JiuCaiTong2_0_Swift_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3E01FF0D5CE0050B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3EB1FF0D5CE0050B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A2E6006CE3A7AF10792EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD681AB16F5B40628F42B1 /* Pods_JiuCaiTong2_0_Swift_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F8FE3C61FF0D5CD0050B3A9 = {
+			isa = PBXGroup;
+			children = (
+				4F8FE3D11FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */,
+				4F8FE3E61FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests */,
+				4F8FE3F11FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests */,
+				4F8FE3D01FF0D5CE0050B3A9 /* Products */,
+				A4DDFEA44AD8DB89A078B9C5 /* Pods */,
+				10A2E6006CE3A7AF10792EDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8FE3D01FF0D5CE0050B3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */,
+				4F8FE3E31FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests.xctest */,
+				4F8FE3EE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8FE3D11FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */,
+				4F8FE3D41FF0D5CE0050B3A9 /* ViewController.swift */,
+				4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */,
+				4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */,
+				4F8FE3DB1FF0D5CE0050B3A9 /* LaunchScreen.storyboard */,
+				4F8FE3DE1FF0D5CE0050B3A9 /* Info.plist */,
+			);
+			path = "JiuCaiTong2.0(Swift)";
+			sourceTree = "<group>";
+		};
+		4F8FE3E61FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FE3E71FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift */,
+				4F8FE3E91FF0D5CE0050B3A9 /* Info.plist */,
+			);
+			path = "JiuCaiTong2.0(Swift)Tests";
+			sourceTree = "<group>";
+		};
+		4F8FE3F11FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FE3F21FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift */,
+				4F8FE3F41FF0D5CE0050B3A9 /* Info.plist */,
+			);
+			path = "JiuCaiTong2.0(Swift)UITests";
+			sourceTree = "<group>";
+		};
+		A4DDFEA44AD8DB89A078B9C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55AABDE06F2FA859C2AA92E3 /* Pods-JiuCaiTong2.0(Swift).debug.xcconfig */,
+				A7DB3EB866AB640CD2C19350 /* Pods-JiuCaiTong2.0(Swift).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8FE3CE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8FE3F71FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)" */;
+			buildPhases = (
+				79A51CCC4D15F87B7A17D6D8 /* [CP] Check Pods Manifest.lock */,
+				4F8FE3CB1FF0D5CE0050B3A9 /* Sources */,
+				4F8FE3CC1FF0D5CE0050B3A9 /* Frameworks */,
+				4F8FE3CD1FF0D5CE0050B3A9 /* Resources */,
+				00A1C7AC4C95001AA3196AD9 /* [CP] Embed Pods Frameworks */,
+				FAB0191D616B2BF3E134205A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JiuCaiTong2.0(Swift)";
+			productName = "JiuCaiTong2.0(Swift)";
+			productReference = 4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F8FE3E21FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8FE3FA1FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)Tests" */;
+			buildPhases = (
+				4F8FE3DF1FF0D5CE0050B3A9 /* Sources */,
+				4F8FE3E01FF0D5CE0050B3A9 /* Frameworks */,
+				4F8FE3E11FF0D5CE0050B3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8FE3E51FF0D5CE0050B3A9 /* PBXTargetDependency */,
+			);
+			name = "JiuCaiTong2.0(Swift)Tests";
+			productName = "JiuCaiTong2.0(Swift)Tests";
+			productReference = 4F8FE3E31FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F8FE3ED1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8FE3FD1FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)UITests" */;
+			buildPhases = (
+				4F8FE3EA1FF0D5CE0050B3A9 /* Sources */,
+				4F8FE3EB1FF0D5CE0050B3A9 /* Frameworks */,
+				4F8FE3EC1FF0D5CE0050B3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8FE3F01FF0D5CE0050B3A9 /* PBXTargetDependency */,
+			);
+			name = "JiuCaiTong2.0(Swift)UITests";
+			productName = "JiuCaiTong2.0(Swift)UITests";
+			productReference = 4F8FE3EE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8FE3C71FF0D5CD0050B3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = baolei;
+				TargetAttributes = {
+					4F8FE3CE1FF0D5CE0050B3A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4F8FE3E21FF0D5CE0050B3A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F8FE3CE1FF0D5CE0050B3A9;
+					};
+					4F8FE3ED1FF0D5CE0050B3A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F8FE3CE1FF0D5CE0050B3A9;
+					};
+				};
+			};
+			buildConfigurationList = 4F8FE3CA1FF0D5CD0050B3A9 /* Build configuration list for PBXProject "JiuCaiTong2.0(Swift)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8FE3C61FF0D5CD0050B3A9;
+			productRefGroup = 4F8FE3D01FF0D5CE0050B3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8FE3CE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */,
+				4F8FE3E21FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)Tests */,
+				4F8FE3ED1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8FE3CD1FF0D5CE0050B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FE3DD1FF0D5CE0050B3A9 /* LaunchScreen.storyboard in Resources */,
+				4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */,
+				4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3E11FF0D5CE0050B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3EC1FF0D5CE0050B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A1C7AC4C95001AA3196AD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A51CCC4D15F87B7A17D6D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiuCaiTong2.0(Swift)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB0191D616B2BF3E134205A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8FE3CB1FF0D5CE0050B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FE3D51FF0D5CE0050B3A9 /* ViewController.swift in Sources */,
+				4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3DF1FF0D5CE0050B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FE3E81FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8FE3EA1FF0D5CE0050B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FE3F31FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8FE3E51FF0D5CE0050B3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F8FE3CE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */;
+			targetProxy = 4F8FE3E41FF0D5CE0050B3A9 /* PBXContainerItemProxy */;
+		};
+		4F8FE3F01FF0D5CE0050B3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F8FE3CE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift) */;
+			targetProxy = 4F8FE3EF1FF0D5CE0050B3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8FE3D71FF0D5CE0050B3A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F8FE3DB1FF0D5CE0050B3A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8FE3DC1FF0D5CE0050B3A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8FE3F51FF0D5CE0050B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8FE3F61FF0D5CE0050B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8FE3F81FF0D5CE0050B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AABDE06F2FA859C2AA92E3 /* Pods-JiuCaiTong2.0(Swift).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E798LNYML;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8FE3F91FF0D5CE0050B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DB3EB866AB640CD2C19350 /* Pods-JiuCaiTong2.0(Swift).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E798LNYML;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F8FE3FB1FF0D5CE0050B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuCaiTong2.0(Swift).app/JiuCaiTong2.0(Swift)";
+			};
+			name = Debug;
+		};
+		4F8FE3FC1FF0D5CE0050B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuCaiTong2.0(Swift).app/JiuCaiTong2.0(Swift)";
+			};
+			name = Release;
+		};
+		4F8FE3FE1FF0D5CE0050B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JiuCaiTong2.0(Swift)";
+			};
+			name = Debug;
+		};
+		4F8FE3FF1FF0D5CE0050B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JiuCaiTong2.0(Swift)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JiuCaiTong2.0(Swift)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8FE3CA1FF0D5CD0050B3A9 /* Build configuration list for PBXProject "JiuCaiTong2.0(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FE3F51FF0D5CE0050B3A9 /* Debug */,
+				4F8FE3F61FF0D5CE0050B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8FE3F71FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FE3F81FF0D5CE0050B3A9 /* Debug */,
+				4F8FE3F91FF0D5CE0050B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8FE3FA1FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FE3FB1FF0D5CE0050B3A9 /* Debug */,
+				4F8FE3FC1FF0D5CE0050B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8FE3FD1FF0D5CE0050B3A9 /* Build configuration list for PBXNativeTarget "JiuCaiTong2.0(Swift)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FE3FE1FF0D5CE0050B3A9 /* Debug */,
+				4F8FE3FF1FF0D5CE0050B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8FE3C71FF0D5CD0050B3A9 /* Project object */;
+}
