@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2316D91FF1F32300A11418 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316D81FF1F32300A11418 /* HomeViewController.swift */; };
+		4F2316DB1FF1F33500A11418 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316DA1FF1F33500A11418 /* InvestViewController.swift */; };
+		4F2316DD1FF1F34400A11418 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316DC1FF1F34400A11418 /* FindViewController.swift */; };
+		4F2316DF1FF1F35100A11418 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316DE1FF1F35100A11418 /* MineViewController.swift */; };
+		4F2316E41FF21D4B00A11418 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E31FF21D4B00A11418 /* Common.swift */; };
+		4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */; };
+		4F2316E81FF237B100A11418 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */; };
 		4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */; };
 		4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */; };
 		4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */; };
@@ -35,6 +42,13 @@
 
 /* Begin PBXFileReference section */
 		3CDD681AB16F5B40628F42B1 /* Pods_JiuCaiTong2_0_Swift_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiuCaiTong2_0_Swift_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2316D81FF1F32300A11418 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F2316DA1FF1F33500A11418 /* InvestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		4F2316DC1FF1F34400A11418 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		4F2316DE1FF1F35100A11418 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		4F2316E31FF21D4B00A11418 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
+		4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JiuCaiTong2.0(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8FE3D71FF0D5CE0050B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -163,6 +177,9 @@
 		4F2316C11FF1140D00A11418 /* Tools(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				4F2316E31FF21D4B00A11418 /* Common.swift */,
+				4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */,
+				4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -170,6 +187,7 @@
 		4F2316C21FF1144700A11418 /* 首页控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				4F2316D81FF1F32300A11418 /* HomeViewController.swift */,
 			);
 			path = "首页控制器";
 			sourceTree = "<group>";
@@ -225,6 +243,7 @@
 		4F2316C91FF1151200A11418 /* 首页控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				4F2316DA1FF1F33500A11418 /* InvestViewController.swift */,
 			);
 			path = "首页控制器";
 			sourceTree = "<group>";
@@ -280,6 +299,7 @@
 		4F2316D01FF1DBE600A11418 /* 首页控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				4F2316DC1FF1F34400A11418 /* FindViewController.swift */,
 			);
 			path = "首页控制器";
 			sourceTree = "<group>";
@@ -301,6 +321,7 @@
 		4F2316D31FF1DC4C00A11418 /* 首页控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				4F2316DE1FF1F35100A11418 /* MineViewController.swift */,
 			);
 			path = "首页控制器";
 			sourceTree = "<group>";
@@ -527,10 +548,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift)-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -577,7 +600,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2316E81FF237B100A11418 /* MyTabBarViewController.swift in Sources */,
+				4F2316DB1FF1F33500A11418 /* InvestViewController.swift in Sources */,
+				4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */,
 				4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */,
+				4F2316D91FF1F32300A11418 /* HomeViewController.swift in Sources */,
+				4F2316DD1FF1F34400A11418 /* FindViewController.swift in Sources */,
+				4F2316E41FF21D4B00A11418 /* Common.swift in Sources */,
+				4F2316DF1FF1F35100A11418 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
