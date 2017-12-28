@@ -8,6 +8,7 @@
 
 import UIKit
 import SDWebImage
+import Alamofire
 class HomeViewController: UIViewController {
 
     var imageview :UIImageView?
@@ -16,7 +17,26 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        //获取单利
+        let MyRequest:MyNetWorkRequestManager = MyNetWorkRequestManager.sharedInstace
+
+        let params:NSMutableDictionary = [:]
+        params .setValue("find", forKey: "act")
+
+        let usrStr = "https://jctwapcg.9caitong.com/mapi/index.php"
+
+        MyRequest .RequestParams(url: usrStr, method: .RequestMethodPOST, params: params , success: { (obj) in
+
+            print("测试数据\(obj)")
+
+
+        }) { (error) in
+
+            print("错误信息\(error)")
+
+        }
+
+       
     }
 
     override func didReceiveMemoryWarning() {

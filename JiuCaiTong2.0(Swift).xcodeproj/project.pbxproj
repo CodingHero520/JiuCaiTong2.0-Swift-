@@ -14,6 +14,7 @@
 		4F2316E41FF21D4B00A11418 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E31FF21D4B00A11418 /* Common.swift */; };
 		4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */; };
 		4F2316E81FF237B100A11418 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */; };
+		4F2316EA1FF2420700A11418 /* MyNetWorkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */; };
 		4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */; };
 		4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */; };
 		4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		4F2316E31FF21D4B00A11418 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
 		4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetWorkRequestManager.swift; sourceTree = "<group>"; };
 		4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JiuCaiTong2.0(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8FE3D71FF0D5CE0050B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				4F2316E31FF21D4B00A11418 /* Common.swift */,
 				4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */,
 				4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */,
+				4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 				4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */,
 				4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */,
 				4F2316D91FF1F32300A11418 /* HomeViewController.swift in Sources */,
+				4F2316EA1FF2420700A11418 /* MyNetWorkRequestManager.swift in Sources */,
 				4F2316DD1FF1F34400A11418 /* FindViewController.swift in Sources */,
 				4F2316E41FF21D4B00A11418 /* Common.swift in Sources */,
 				4F2316DF1FF1F35100A11418 /* MineViewController.swift in Sources */,
