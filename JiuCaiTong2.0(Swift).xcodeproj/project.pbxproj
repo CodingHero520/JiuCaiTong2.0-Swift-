@@ -15,6 +15,8 @@
 		4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */; };
 		4F2316E81FF237B100A11418 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */; };
 		4F2316EA1FF2420700A11418 /* MyNetWorkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */; };
+		4F8379871FF4CEC700D8B831 /* HomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8379861FF4CEC700D8B831 /* HomeBannerView.swift */; };
+		4F8379921FF6111A00D8B831 /* JCT_Home_MainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8379911FF6111900D8B831 /* JCT_Home_MainTable.swift */; };
 		4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */; };
 		4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D61FF0D5CE0050B3A9 /* Main.storyboard */; };
 		4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3D91FF0D5CE0050B3A9 /* Assets.xcassets */; };
@@ -51,6 +53,9 @@
 		4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
 		4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetWorkRequestManager.swift; sourceTree = "<group>"; };
+		4F8379861FF4CEC700D8B831 /* HomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerView.swift; sourceTree = "<group>"; };
+		4F8379911FF6111900D8B831 /* JCT_Home_MainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCT_Home_MainTable.swift; sourceTree = "<group>"; };
+		4F8379951FF637FE00D8B831 /* Header-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Header-Briding-Header.h"; sourceTree = "<group>"; };
 		4F8FE3CF1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JiuCaiTong2.0(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8FE3D21FF0D5CE0050B3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8FE3D71FF0D5CE0050B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -172,6 +177,7 @@
 		4F2316C01FF1140800A11418 /* Ohters(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				4F83798A1FF5F3A300D8B831 /* JCT_HomeAutoScrollView */,
 			);
 			path = "Ohters(第三方)";
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 				4F2316E51FF2367B00A11418 /* MyNavigationViewController.swift */,
 				4F2316E71FF237B100A11418 /* MyTabBarViewController.swift */,
 				4F2316E91FF2420700A11418 /* MyNetWorkRequestManager.swift */,
+				4F8379951FF637FE00D8B831 /* Header-Briding-Header.h */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -205,6 +212,8 @@
 		4F2316C41FF1149800A11418 /* 首页视图 */ = {
 			isa = PBXGroup;
 			children = (
+				4F8379861FF4CEC700D8B831 /* HomeBannerView.swift */,
+				4F8379911FF6111900D8B831 /* JCT_Home_MainTable.swift */,
 			);
 			path = "首页视图";
 			sourceTree = "<group>";
@@ -341,6 +350,13 @@
 			children = (
 			);
 			path = "首页视图";
+			sourceTree = "<group>";
+		};
+		4F83798A1FF5F3A300D8B831 /* JCT_HomeAutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JCT_HomeAutoScrollView;
 			sourceTree = "<group>";
 		};
 		4F8FE3C61FF0D5CD0050B3A9 = {
@@ -551,11 +567,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift)-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,8 +628,10 @@
 				4F2316D91FF1F32300A11418 /* HomeViewController.swift in Sources */,
 				4F2316EA1FF2420700A11418 /* MyNetWorkRequestManager.swift in Sources */,
 				4F2316DD1FF1F34400A11418 /* FindViewController.swift in Sources */,
+				4F8379871FF4CEC700D8B831 /* HomeBannerView.swift in Sources */,
 				4F2316E41FF21D4B00A11418 /* Common.swift in Sources */,
 				4F2316DF1FF1F35100A11418 /* MineViewController.swift in Sources */,
+				4F8379921FF6111A00D8B831 /* JCT_Home_MainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,6 +806,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pc/Desktop/JiuCaiTong2.0(Swift)/JiuCaiTong2.0(Swift)/Tools(工具类)/Header-Briding-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -804,6 +825,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiucheng.JiuCaiTong2-0-Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pc/Desktop/JiuCaiTong2.0(Swift)/JiuCaiTong2.0(Swift)/Tools(工具类)/Header-Briding-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
