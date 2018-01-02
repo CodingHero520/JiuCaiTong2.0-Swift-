@@ -45,7 +45,7 @@ class JCT_Home_MainTable: UITableView,UITableViewDelegate,UITableViewDataSource,
     }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
-        var yOff = scrollView.contentOffset.y;
+        var yOff = scrollView.contentOffset.y+20;
        
         if yOff < -200 {
             

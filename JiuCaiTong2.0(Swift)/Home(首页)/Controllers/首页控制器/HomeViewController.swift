@@ -19,7 +19,7 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
         //获取单利
 //        let MyRequest:MyNetWorkRequestManager = MyNetWorkRequestManager.sharedInstace
 //
@@ -46,7 +46,7 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     
     func setupAboutHomeBanner() -> Void {
         
-       MyTable = JCT_Home_MainTable.init(frame: CGRect.init(x: 0, y: 0, width: KScreenWidth, height: KScreenHeight - 49), style: .plain)
+       MyTable = JCT_Home_MainTable.init(frame: CGRect.init(x: 0, y: -20, width: KScreenWidth, height: KScreenHeight - 49), style: .plain)
        MyTable?.contentInset = UIEdgeInsetsMake(200, 0, 0, 0)
        MyTable?.contentOffset = CGPoint.init(x: 0, y: -200)
        MyTable?.addSubview(AutoCycle!)
@@ -64,23 +64,14 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
         self.AutoCycle?.centerImage?.frame.size.height = -yOff
         self.AutoCycle?.centerImage?.frame.size.width = KScreenWidth + (-yOff - 200)*HWScale
         self.AutoCycle?.centerImage?.frame.origin.x = yOff+200
-       
+
         } as? JCT_Home_MainTable.successBlock
     }
 
     func loadCycleView() {
         
-        let urls = ["http://pic.qyer.com/public/mobileapp/homebanner/2017/10/09/15075430688640/w800",
-                    "http://pic.qyer.com/ra/img/15064476767054",
-                    "http://pic.qyer.com/public/mobileapp/homebanner/2017/10/09/15075432049166/w800",
-                    "http://pic.qyer.com/public/mobileapp/homebanner/2017/10/10/15076301267252/w800"
-        ]
     
         AutoCycle = HomeBannerView.init(frame: CGRect.init(x: 0, y: -200, width: KScreenWidth, height: 200))
-        
-        AutoCycle?.backgroundColor = UIColor.green
-
-        
     
     }
     
@@ -92,6 +83,14 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
         
         self.navigationController?.navigationBar.isHidden = true
         
+        AutoCycle?.startTimer()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        
+        AutoCycle?.stopTimer()
     }
     
     override func didReceiveMemoryWarning() {
