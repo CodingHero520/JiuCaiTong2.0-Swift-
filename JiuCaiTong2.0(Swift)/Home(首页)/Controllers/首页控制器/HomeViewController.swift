@@ -16,6 +16,7 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     
     var AutoCycle :HomeBannerView?
     
+    var MyTable_Footer :Home_Table_FooterView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,12 +47,15 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     
     func setupAboutHomeBanner() -> Void {
         
-       MyTable = JCT_Home_MainTable.init(frame: CGRect.init(x: 0, y: -20, width: KScreenWidth, height: KScreenHeight - 49), style: .plain)
+       MyTable = JCT_Home_MainTable.init(frame: CGRect.init(x: 0, y: -20, width: KScreenWidth, height: KScreenHeight - 29), style: .plain)
        MyTable?.contentInset = UIEdgeInsetsMake(200, 0, 0, 0)
        MyTable?.contentOffset = CGPoint.init(x: 0, y: -200)
        MyTable?.addSubview(AutoCycle!)
        view.addSubview(MyTable!)
     
+        MyTable_Footer = Bundle.main.loadNibNamed("Home_Table_FooterView", owner: self, options: nil)?.last as? Home_Table_FooterView
+        
+        MyTable?.tableFooterView = MyTable_Footer
         
       weak var weakSelf = self
         
@@ -66,6 +70,11 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
         self.AutoCycle?.centerImage?.frame.origin.x = yOff+200
 
         } as? JCT_Home_MainTable.successBlock
+        
+        MyTable?.SwitchItemBlcok = {()->Void in
+            
+            self.tabBarController?.selectedIndex = 1
+        }
     }
 
     func loadCycleView() {
@@ -84,6 +93,9 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
         self.navigationController?.navigationBar.isHidden = true
         
         AutoCycle?.startTimer()
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "record_Home"), object: ["IO":"1"])
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue:"openAnimation"), object: nil)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -91,6 +103,10 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
         super.viewWillDisappear(animated)
         
         AutoCycle?.stopTimer()
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "record_Home"), object: ["IO":"0"])
+         NotificationCenter.default.post(name: NSNotification.Name(rawValue:"closeAnimation"), object: nil)
+        
     }
     
     override func didReceiveMemoryWarning() {

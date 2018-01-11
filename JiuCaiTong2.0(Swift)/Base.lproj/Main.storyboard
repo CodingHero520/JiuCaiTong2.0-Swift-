@@ -12,7 +12,7 @@
         <!--My Tab Bar View Controller-->
         <scene sceneID="oI0-HG-KrI">
             <objects>
-                <tabBarController id="Y4n-G8-KWA" customClass="MyTabBarViewController" customModule="JiuCaiTong2_0_Swift_" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MyTabBarViewControllerID" id="Y4n-G8-KWA" customClass="MyTabBarViewController" customModule="JiuCaiTong2_0_Swift_" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HiH-Tk-W7E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -127,7 +127,7 @@
                     <view key="view" contentMode="scaleToFill" id="sbz-7u-mPA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99939984079999999" green="0.92412165759999998" blue="0.86862293950000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92800564236111116" green="0.94873046875" blue="0.96308051215277779" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="0Wk-2k-dFR"/>
                 </viewController>
@@ -146,7 +146,7 @@
                     <view key="view" contentMode="scaleToFill" id="FKL-A5-qq6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.89406463010000004" green="0.94300279440000001" blue="0.9686706853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.89406463010000004" green="0.94300279440000001" blue="0.96449316793888884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2dK-eO-xJH"/>
                 </viewController>
@@ -165,7 +165,7 @@
                     <view key="view" contentMode="scaleToFill" id="CBd-t8-s0k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.75923284950000003" green="0.75556505789999995" blue="0.76290064099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92834092241666666" green="0.95095893810833332" blue="0.96561873995833336" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gs3-fG-91g"/>
                 </viewController>

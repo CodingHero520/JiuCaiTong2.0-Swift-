@@ -98,7 +98,7 @@ class HomeBannerView: UIScrollView {
     
     //计时器调用的方法
     @objc func timeAction(time:Timer){
-        print("fire")
+    
         leftAnimationAction()
     }
     //手势调用的方法

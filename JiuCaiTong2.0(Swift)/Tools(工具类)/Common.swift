@@ -11,7 +11,11 @@ import UIKit
 let KScreenWidth = UIScreen.main.bounds.size.width
 let KScreenHeight = UIScreen.main.bounds.size.height
 let HWScale = KScreenHeight/KScreenWidth
-
+func RGBA(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat)->UIColor{
+    
+    return UIColor.init(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
+    
+}
 
 
 func jct_urlStr() -> NSString {
