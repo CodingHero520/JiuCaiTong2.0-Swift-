@@ -53,7 +53,7 @@ class HomeBannerView: UIScrollView {
         
         index = 0
         
-        centerImage = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: KScreenWidth, height: 200))
+        centerImage = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: KScreenWidth, height: isPad(200)))
         centerImage?.sd_setImage(with: NSURL.init(string:self.urlImages?.firstObject as! String) as! URL, placeholderImage: nil, options: .retryFailed, completed: nil)
         centerImage?.isUserInteractionEnabled = true
         addSubview(centerImage!)

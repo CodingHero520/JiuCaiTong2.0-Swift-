@@ -55,7 +55,7 @@ class JCT_Home_MainTable: UITableView,UITableViewDelegate,UITableViewDataSource,
         
         }else{
             
-            return 155
+            return isPad(155)
             
         }
         

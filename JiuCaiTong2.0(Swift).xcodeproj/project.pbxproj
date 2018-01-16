@@ -15,6 +15,9 @@
 		4F214D97200602E90088A0EC /* Home_navigationbar_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F214D95200602E90088A0EC /* Home_navigationbar_CollectionViewCell.xib */; };
 		4F214D9B2006FC650088A0EC /* Invest_months_collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F214D9A2006FC650088A0EC /* Invest_months_collection.swift */; };
 		4F214D9D2006FCBC0088A0EC /* Invest_months_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F214D9C2006FCBC0088A0EC /* Invest_months_CollectionViewCell.swift */; };
+		4F214D9F20075C3D0088A0EC /* Invest_main_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F214D9E20075C3D0088A0EC /* Invest_main_page.swift */; };
+		4F214DA2200859430088A0EC /* Invest_main_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F214DA0200859430088A0EC /* Invest_main_TableViewCell.swift */; };
+		4F214DA3200859430088A0EC /* Invest_main_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F214DA1200859430088A0EC /* Invest_main_TableViewCell.xib */; };
 		4F2316D91FF1F32300A11418 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316D81FF1F32300A11418 /* HomeViewController.swift */; };
 		4F2316DB1FF1F33500A11418 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316DA1FF1F33500A11418 /* InvestViewController.swift */; };
 		4F2316DD1FF1F34400A11418 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2316DC1FF1F34400A11418 /* FindViewController.swift */; };
@@ -38,6 +41,11 @@
 		4F8FE3DD1FF0D5CE0050B3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FE3DB1FF0D5CE0050B3A9 /* LaunchScreen.storyboard */; };
 		4F8FE3E81FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3E71FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_Tests.swift */; };
 		4F8FE3F31FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FE3F21FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift */; };
+		4FD7FB23200CA5B000A0BB6B /* My_main_tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FB22200CA5B000A0BB6B /* My_main_tableview.swift */; };
+		4FD7FB25200CA70700A0BB6B /* My_login_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FB24200CA70700A0BB6B /* My_login_view.swift */; };
+		4FD7FB27200DA35900A0BB6B /* My_login_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FB26200DA35900A0BB6B /* My_login_view.xib */; };
+		4FD7FB2A200DCE9800A0BB6B /* My_main_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FB28200DCE9800A0BB6B /* My_main_TableViewCell.swift */; };
+		4FD7FB2B200DCE9800A0BB6B /* My_main_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FB29200DCE9800A0BB6B /* My_main_TableViewCell.xib */; };
 		9B0393346939FEE21F45394F /* Pods_JiuCaiTong2_0_Swift_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD681AB16F5B40628F42B1 /* Pods_JiuCaiTong2_0_Swift_.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +76,9 @@
 		4F214D95200602E90088A0EC /* Home_navigationbar_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home_navigationbar_CollectionViewCell.xib; sourceTree = "<group>"; };
 		4F214D9A2006FC650088A0EC /* Invest_months_collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest_months_collection.swift; sourceTree = "<group>"; };
 		4F214D9C2006FCBC0088A0EC /* Invest_months_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest_months_CollectionViewCell.swift; sourceTree = "<group>"; };
+		4F214D9E20075C3D0088A0EC /* Invest_main_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest_main_page.swift; sourceTree = "<group>"; };
+		4F214DA0200859430088A0EC /* Invest_main_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest_main_TableViewCell.swift; sourceTree = "<group>"; };
+		4F214DA1200859430088A0EC /* Invest_main_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Invest_main_TableViewCell.xib; sourceTree = "<group>"; };
 		4F2316D81FF1F32300A11418 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4F2316DA1FF1F33500A11418 /* InvestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
 		4F2316DC1FF1F34400A11418 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +109,11 @@
 		4F8FE3EE1FF0D5CE0050B3A9 /* JiuCaiTong2.0(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JiuCaiTong2.0(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8FE3F21FF0D5CE0050B3A9 /* JiuCaiTong2_0_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuCaiTong2_0_Swift_UITests.swift; sourceTree = "<group>"; };
 		4F8FE3F41FF0D5CE0050B3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD7FB22200CA5B000A0BB6B /* My_main_tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_main_tableview.swift; sourceTree = "<group>"; };
+		4FD7FB24200CA70700A0BB6B /* My_login_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_login_view.swift; sourceTree = "<group>"; };
+		4FD7FB26200DA35900A0BB6B /* My_login_view.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = My_login_view.xib; sourceTree = "<group>"; };
+		4FD7FB28200DCE9800A0BB6B /* My_main_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_main_TableViewCell.swift; sourceTree = "<group>"; };
+		4FD7FB29200DCE9800A0BB6B /* My_main_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = My_main_TableViewCell.xib; sourceTree = "<group>"; };
 		55AABDE06F2FA859C2AA92E3 /* Pods-JiuCaiTong2.0(Swift).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuCaiTong2.0(Swift).debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift).debug.xcconfig"; sourceTree = "<group>"; };
 		A7DB3EB866AB640CD2C19350 /* Pods-JiuCaiTong2.0(Swift).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuCaiTong2.0(Swift).release.xcconfig"; path = "Pods/Target Support Files/Pods-JiuCaiTong2.0(Swift)/Pods-JiuCaiTong2.0(Swift).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -315,6 +331,9 @@
 				4F214D95200602E90088A0EC /* Home_navigationbar_CollectionViewCell.xib */,
 				4F214D9A2006FC650088A0EC /* Invest_months_collection.swift */,
 				4F214D9C2006FCBC0088A0EC /* Invest_months_CollectionViewCell.swift */,
+				4F214D9E20075C3D0088A0EC /* Invest_main_page.swift */,
+				4F214DA0200859430088A0EC /* Invest_main_TableViewCell.swift */,
+				4F214DA1200859430088A0EC /* Invest_main_TableViewCell.xib */,
 			);
 			path = "首页视图";
 			sourceTree = "<group>";
@@ -393,6 +412,11 @@
 		4F2316D51FF1DC5800A11418 /* 首页视图 */ = {
 			isa = PBXGroup;
 			children = (
+				4FD7FB22200CA5B000A0BB6B /* My_main_tableview.swift */,
+				4FD7FB24200CA70700A0BB6B /* My_login_view.swift */,
+				4FD7FB26200DA35900A0BB6B /* My_login_view.xib */,
+				4FD7FB28200DCE9800A0BB6B /* My_main_TableViewCell.swift */,
+				4FD7FB29200DCE9800A0BB6B /* My_main_TableViewCell.xib */,
 			);
 			path = "首页视图";
 			sourceTree = "<group>";
@@ -587,9 +611,12 @@
 				4F8379A11FFBA2D300D8B831 /* Home_ActivityEntry_TableViewCell.xib in Resources */,
 				4F214D912005C4E90088A0EC /* Invest_navigationbar_scroll.xib in Resources */,
 				4F8FE3DA1FF0D5CE0050B3A9 /* Assets.xcassets in Resources */,
+				4FD7FB2B200DCE9800A0BB6B /* My_main_TableViewCell.xib in Resources */,
 				4F214D8F2004C77F0088A0EC /* Home_Table_FooterView.xib in Resources */,
+				4F214DA3200859430088A0EC /* Invest_main_TableViewCell.xib in Resources */,
 				4F8FE3D81FF0D5CE0050B3A9 /* Main.storyboard in Resources */,
 				4F8379991FFB907400D8B831 /* Home_News_TableViewCell.xib in Resources */,
+				4FD7FB27200DA35900A0BB6B /* My_login_view.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,8 +701,11 @@
 			files = (
 				4F214D9D2006FCBC0088A0EC /* Invest_months_CollectionViewCell.swift in Sources */,
 				4F2316E81FF237B100A11418 /* MyTabBarViewController.swift in Sources */,
+				4FD7FB23200CA5B000A0BB6B /* My_main_tableview.swift in Sources */,
 				4F2316DB1FF1F33500A11418 /* InvestViewController.swift in Sources */,
+				4F214DA2200859430088A0EC /* Invest_main_TableViewCell.swift in Sources */,
 				4F8379A01FFBA2D300D8B831 /* Home_ActivityEntry_TableViewCell.swift in Sources */,
+				4FD7FB25200CA70700A0BB6B /* My_login_view.swift in Sources */,
 				4F8379A51FFCB02000D8B831 /* CycleProgress.swift in Sources */,
 				4F2316E61FF2367B00A11418 /* MyNavigationViewController.swift in Sources */,
 				4F8FE3D31FF0D5CE0050B3A9 /* AppDelegate.swift in Sources */,
@@ -686,8 +716,10 @@
 				4F214D9B2006FC650088A0EC /* Invest_months_collection.swift in Sources */,
 				4F2316E41FF21D4B00A11418 /* Common.swift in Sources */,
 				4F2316DF1FF1F35100A11418 /* MineViewController.swift in Sources */,
+				4F214D9F20075C3D0088A0EC /* Invest_main_page.swift in Sources */,
 				4F8379921FF6111A00D8B831 /* JCT_Home_MainTable.swift in Sources */,
 				4F214D96200602E90088A0EC /* Home_navigationbar_CollectionViewCell.swift in Sources */,
+				4FD7FB2A200DCE9800A0BB6B /* My_main_TableViewCell.swift in Sources */,
 				4F83799C1FFBA1D100D8B831 /* Home_Cycle_Progress_TableViewCell.swift in Sources */,
 				4F214D932005F18D0088A0EC /* Invest_navigationbar_scroll.swift in Sources */,
 				4F8379981FFB907400D8B831 /* Home_News_TableViewCell.swift in Sources */,

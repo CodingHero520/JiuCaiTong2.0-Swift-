@@ -50,6 +50,12 @@ class Invest_months_collection: UICollectionView,UICollectionViewDataSource,UICo
         
         cell.backgroundView?.isHidden = true
         
+        //默认第一个呗选中
+        if indexPath.item == 0 {
+            
+            cell.backgroundView?.isHidden = false
+            
+        }
         
         return cell
         

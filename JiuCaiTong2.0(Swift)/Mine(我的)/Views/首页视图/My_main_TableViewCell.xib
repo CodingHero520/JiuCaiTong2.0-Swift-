@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="My_main_TableViewCellID" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="My_main_TableViewCell" customModule="JiuCaiTong2_0_Swift_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_23" translatesAutoresizingMaskIntoConstraints="NO" id="Y7L-55-PeR">
+                        <rect key="frame" x="12" y="17.5" width="16" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="TfB-f7-y74"/>
+                            <constraint firstAttribute="height" constant="15" id="TkW-bS-Zf8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="资金详览" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxo-QG-Umu">
+                        <rect key="frame" x="41" y="17" width="57.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14" translatesAutoresizingMaskIntoConstraints="NO" id="dKa-FE-tvi">
+                        <rect key="frame" x="350" y="18.5" width="8" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="E8m-N3-1Py"/>
+                            <constraint firstAttribute="height" constant="12" id="JJe-aC-yOg"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qs-tB-Fe9">
+                        <rect key="frame" x="10" y="49" width="365" height="1"/>
+                        <color key="backgroundColor" red="0.92862955729166663" green="0.94780815972222221" blue="0.96337890625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="VUG-we-kIF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9qs-tB-Fe9" secondAttribute="trailing" id="3ko-nZ-Hae"/>
+                    <constraint firstAttribute="trailing" secondItem="dKa-FE-tvi" secondAttribute="trailing" constant="17" id="9Ua-5y-0pV"/>
+                    <constraint firstAttribute="bottom" secondItem="9qs-tB-Fe9" secondAttribute="bottom" id="VqV-qh-uwo"/>
+                    <constraint firstItem="dKa-FE-tvi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XQN-4X-fLq"/>
+                    <constraint firstItem="Sxo-QG-Umu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="b8n-Kw-oeg"/>
+                    <constraint firstItem="Y7L-55-PeR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bsG-tY-Xxh"/>
+                    <constraint firstItem="9qs-tB-Fe9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="cC1-qP-Bdb"/>
+                    <constraint firstItem="Sxo-QG-Umu" firstAttribute="leading" secondItem="Y7L-55-PeR" secondAttribute="trailing" constant="13" id="k3J-8C-EkQ"/>
+                    <constraint firstItem="Y7L-55-PeR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="rwa-vV-sBs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="my_main_cell_forward" destination="dKa-FE-tvi" id="UnQ-OQ-ksy"/>
+                <outlet property="my_main_cell_icon" destination="Y7L-55-PeR" id="X6z-4F-bWD"/>
+                <outlet property="my_main_cell_seperatorline" destination="9qs-tB-Fe9" id="XZC-ki-iJu"/>
+                <outlet property="my_mian_cell_label" destination="Sxo-QG-Umu" id="bFV-8V-MKd"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="14" width="8" height="15"/>
+        <image name="Icon_23" width="19" height="19"/>
+    </resources>
+</document>

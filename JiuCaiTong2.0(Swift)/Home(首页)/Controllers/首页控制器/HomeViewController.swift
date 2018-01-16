@@ -48,8 +48,8 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     func setupAboutHomeBanner() -> Void {
         
        MyTable = JCT_Home_MainTable.init(frame: CGRect.init(x: 0, y: -20, width: KScreenWidth, height: KScreenHeight - 29), style: .plain)
-       MyTable?.contentInset = UIEdgeInsetsMake(200, 0, 0, 0)
-       MyTable?.contentOffset = CGPoint.init(x: 0, y: -200)
+       MyTable?.contentInset = UIEdgeInsetsMake(isPad(200), 0, 0, 0)
+       MyTable?.contentOffset = CGPoint.init(x: 0, y: -isPad(200))
        MyTable?.addSubview(AutoCycle!)
        view.addSubview(MyTable!)
     
@@ -80,7 +80,7 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate{
     func loadCycleView() {
         
     
-        AutoCycle = HomeBannerView.init(frame: CGRect.init(x: 0, y: -200, width: KScreenWidth, height: 200))
+        AutoCycle = HomeBannerView.init(frame: CGRect.init(x: 0, y: -isPad(200), width: KScreenWidth, height: isPad(200)))
     
     }
     

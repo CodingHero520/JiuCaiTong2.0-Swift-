@@ -16,6 +16,12 @@ class Invest_navigationbar_scroll: UIView,UICollectionViewDelegate,UICollectionV
     
     var item_label :UILabel?
     
+    typealias SwitchBlcok = (Bool)->Void
+    
+    //控制月份的闭包
+    var Invest_Switch_Block :SwitchBlcok?
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return (self.itemArray?.count)!
@@ -102,13 +108,39 @@ class Invest_navigationbar_scroll: UIView,UICollectionViewDelegate,UICollectionV
         self.SwitchUpDown .addTarget(self, action: #selector(clickupdowm), for: .touchUpInside)
     }
  
+    //重写frame
+    override var frame: CGRect{
+        
+        didSet{
+    
+            var newFrame = frame
+            newFrame.size.width = KScreenWidth
+            super.frame = newFrame
+            
+        }
+    
+    }
+    
     @objc func clickupdowm() -> Void {
         
         self.SwitchUpDown.isSelected = !self.SwitchUpDown.isSelected
         
         if self.SwitchUpDown.isSelected == true {
             
+            if self.Invest_Switch_Block != nil{
+                
+                self.Invest_Switch_Block!(true)
+                
+            }
             
+            
+        }else{
+            
+            if self.Invest_Switch_Block != nil{
+                
+                self.Invest_Switch_Block!(false)
+                
+            }
             
         }
         

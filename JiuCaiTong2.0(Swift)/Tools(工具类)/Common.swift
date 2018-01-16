@@ -11,6 +11,22 @@ import UIKit
 let KScreenWidth = UIScreen.main.bounds.size.width
 let KScreenHeight = UIScreen.main.bounds.size.height
 let HWScale = KScreenHeight/KScreenWidth
+let ipadScale = KScreenHeight/667
+
+//判断当前的设备是ipad还是手机
+func isPad(_:CGFloat) -> CGFloat{
+    
+    if UIDevice.current.model == "iPad" {
+     
+        return 200 * ipadScale
+        
+    }else{
+        
+        return 200
+    }
+
+}
+
 func RGBA(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat)->UIColor{
     
     return UIColor.init(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
